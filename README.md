@@ -23,7 +23,6 @@ Check it out here: [your-portfolio-link](http://127.0.0.1:5500/CodeSoft%20Portfo
 .
 ├── index.html
 ├── style.css
-├── script.js
 ├── assets/
-│   └── images, icons, resume, etc.
+│   └── images, certificates, resume, etc.
 └── README.md
