@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="CodeSoft Portfolio CSS.css" />
+</head>
+<body>
+  <header>
+    <h1>Srindhu Pocharam</h1>
+    <p>Programmer |  Web Developer</p>
+    <button id="theme-toggle">Toggle Dark Mode</button>
+    <div class="header">
+      <img src="Profile photo.jpg" alt="My Photo">
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Dedicated Front end developer , eager to use my technical, analytical and professional skills for a promising and challenging career which will enable me to provide best of me. Seeking opportunities to apply my knowledge in real-world situations.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Programming Language : Python</li>
+        <li>Web Technologies :
+          <ul>
+            <li>HTML - Hypertext Markup Language</li>
+            <li>CSS - Cascading Style Sheets</li>
+            <li>JavaScript</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <div class="experience">
+        <h3>Python Development, Alfido Tech (Internship - Virtual) </h3>
+        <p>
+          <ul>
+             <li>
+              Developed and implemented Python-based solutions for real-world problems.
+            <li>
+              Gained hands-on experience, enhanced problem-solving, coding and debugging skills.
+            </li>
+          </ul>
+        </p>
+        <br>
+        <center><a href="Alfido certificte.pdf" class="btn">View Certificate</a></center>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Weather Forecast Application </h3>
+        <p>
+          <ul>
+            <li>
+              Technologies Used: HTML, Tailwind CSS, JavaScript 
+            </li> 
+             <li>
+              Developed a responsive Weather Forecast Application that provides real-time weather updates and further forecasts for specific locations
+            </li>
+            <li>
+              Implemented Asynchronous API requests to dynamically fetch and display weather data, utilized JavaScript, HTML, and CSS for an interactive and user-friendly interface.
+            </li>
+            <li>
+              Focused on responsiveness to ensure seamless functionality across various devices.
+            </li>  
+          </ul>
+          <br>
+          <center><a href="https://weather-forecast-ten-tan.vercel.app/" class="btn">View Project - Click Here</a> </center>
+        </p>
+      </div>
+    </section>
+
+    <section id="certifications">
+      <h2>Certifications</h2>
+      <div class="certificate">
+        <p>
+          <ul>
+            <li>
+              Completion of Generative AI for Beginners course from Great Learning.
+            </li> 
+             <li>
+              Designing Web Pages Using HTML And CSS from Internshala Trainings.
+            </li>
+            <li>
+              Developing Interactive Websites with JavaScript from Internshala Trainings.
+            </li>
+            <li>
+              Completion of Internship in Python Development from Alfido Tech.
+            </li> 
+          </ul>
+        </p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:srindhupocharam2608@gmail.com"> srindhupocharam2608@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/srindhu-pocharam-1662832b5/">linkedin.com/in/srindhu-pocharam</a></p>
+      <p>GitHub: <a href="https://github.com/Srindhu">github.com/Srindhu</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p><h4>&copy; 2025 Srindhu Pocharam</h4></p>
+  </footer>
+
+  <script>
+    const toggleBtn = document.getElementById('theme-toggle');
+    toggleBtn.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+    });
+  </script>
+</body>
+</html>
